@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "geny-demo-1",
+    "slug": "geny-demo-1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.geny.geny_demo_1",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      
+      "config":{
+        "firebase":{
+          "apiKey": "AIzaSyAWYLcT6ey83voqmGtDBJt_MNKebQwqBGA",
+         "authDomain": "geny-demo-1.firebaseapp.com",
+         "databaseURL": "https://geny-demo-1.firebaseio.com",
+          "projectId": "geny-demo-1",
+          "storageBucket": "geny-demo-1.appspot.com",
+          "messagingSenderId": "653963923933",
+          "appId": "1:653963923933:web:4614dba912d70aacf8e634"
+        }
+      },
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
